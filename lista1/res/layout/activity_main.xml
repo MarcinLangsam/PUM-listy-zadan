@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/QuestionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="48sp" />
+
+        <ProgressBar
+            android:id="@+id/QuestionProgressBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:max="10"
+            android:progress="1"
+            android:progressBackgroundTint="#006752"
+            android:progressTint="#008FD1" />
+
+        <TextView
+            android:id="@+id/QuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="#ADC5BABA"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            app:cardBackgroundColor="#88E3E1B6">
+
+            <RadioGroup
+                android:id="@+id/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/A"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:buttonTint="#0088F1"
+                    android:text="RadioButton"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/B"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:buttonTint="#0088F1"
+                    android:text="RadioButton"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/C"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:buttonTint="#0088F1"
+                    android:text="RadioButton"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/D"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:buttonTint="#0088F1"
+                    android:text="RadioButton"
+                    android:textSize="20sp" />
+
+
+            </RadioGroup>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/NextButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_margin="7dp"
+            android:backgroundTint="#008EDA"
+            android:gravity="center"
+            android:text="Dalej"
+            android:textAlignment="inherit"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

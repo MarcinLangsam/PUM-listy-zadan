@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CB8FD8"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/punkty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Punkty"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:paddingRight="8dp"/>
+
+    <TextView
+        android:id="@+id/numer_zadania"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Numer zadania"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:paddingLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/tresc"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Treść"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:paddingLeft="8dp"/>
+
+
+</LinearLayout>

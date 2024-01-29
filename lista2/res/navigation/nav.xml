@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/listyZadan">
+
+    <fragment
+        android:id="@+id/listyZadan"
+        android:name="com.example.lista2.ListyZadan"
+        android:label="fragment_listy_zadan"
+        tools:layout="@layout/fragment_listy_zadan" >
+        <action
+            android:id="@+id/action_listyZadan_to_zadania"
+            app:destination="@id/zadania" />
+    </fragment>
+    <fragment
+        android:id="@+id/zadania"
+        android:name="com.example.lista2.Zadania"
+        android:label="fragment_zadania"
+        tools:layout="@layout/fragment_zadania" />
+</navigation>

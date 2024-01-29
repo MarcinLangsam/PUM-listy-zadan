@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rekord"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="#CB8FD8"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/przedmiot"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Przemiot"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/numer_listy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/przedmiot"
+            android:text="Numer Listy"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/liczba_zadan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/przedmiot"
+            android:text="Liczba zadań"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/ocena"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="ocena"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
