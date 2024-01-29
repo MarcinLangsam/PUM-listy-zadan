@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDD55C"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/note_name"
+            style="@style/word_title"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:background="#EDD55C"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EDD55C">
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:textColor="@color/buttonLabel"
+            android:backgroundTint="#EDD55C"/>
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/button_delete"
+            android:drawableLeft="@android:drawable/ic_menu_manage"
+            android:textColor="@color/buttonLabel"
+            android:backgroundTint="#EDD55C"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

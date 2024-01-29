@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Błąd dodawania do bazy dancyh.</string>
+    <string name="add_word">Add word</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

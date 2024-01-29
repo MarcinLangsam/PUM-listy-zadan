@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewWeekActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height"
+            android:fontFamily="sans-serif-light"
+            android:hint="Wprowadź nazwę(wymagane)..."
+            android:inputType="textAutoComplete"
+            android:layout_margin="16dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/task_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height"
+            android:fontFamily="sans-serif-light"
+            android:hint="Wyznacz deadline..."
+            android:inputType="textAutoComplete"
+            android:layout_margin="16dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height"
+            android:fontFamily="sans-serif-light"
+            android:hint="Wprowadź opis..."
+            android:inputType="textAutoComplete"
+            android:layout_margin="16dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Zmień"
+            android:layout_margin="16dp"
+            android:textColor="@color/buttonLabel" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
